@@ -1,4 +1,3 @@
-
 class Teams {
 
     static getElementByText(type, text) {
@@ -31,7 +30,7 @@ class Teams {
 class TeamA {
 
     static setA() {
-        const clickA = Teams.getElementByText('span', 'Wählen Alpha ')?.parentElement;
+        const clickA = Teams.getElementByText('span', 'join team alfa')?.parentElement;
         if (!clickA) {
             return;
         }
@@ -40,7 +39,7 @@ class TeamA {
     }
 
     static setJoin() {
-        const join = Teams.getElementByText('span', 'Betreten ')?.parentElement;
+        const join = Teams.getElementByText('span', 'join')?.parentElement;
         if (!join) {
             return
         }
@@ -59,7 +58,7 @@ class TeamA {
 class TeamB {
 
     static setB() {
-        const clickB = Teams.getElementByText('span', 'Wählen Bravo ')?.parentElement;
+        const clickB = Teams.getElementByText('span', 'join team bravo')?.parentElement;
         if (!clickB) {
             return;
         }
@@ -68,7 +67,7 @@ class TeamB {
     }
 
     static setJoinB() {
-        const joinB = Teams.getElementByText('span', 'Betreten ')?.parentElement;
+        const joinB = Teams.getElementByText('span', 'join')?.parentElement;
         if (!joinB) {
             return
         }
@@ -87,7 +86,7 @@ class TeamB {
 class DM {
 
     static setJoinDM() {
-        const joinDM = Teams.getElementByText('span', 'Betreten ')?.parentElement;
+        const joinDM = Teams.getElementByText('span', 'join ')?.parentElement;
         if (!joinDM) {
             return
         }
