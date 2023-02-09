@@ -1,1 +1,163 @@
-function _0x3337(_0x1b6a2f,_0x30681f){const _0x5859ef=_0x5859();return _0x3337=function(_0x333707,_0x1cb219){_0x333707=_0x333707-0x95;let _0x132f7c=_0x5859ef[_0x333707];return _0x132f7c;},_0x3337(_0x1b6a2f,_0x30681f);}function _0x5859(){const _0x4d97c9=['.liPcsK','.hWZnyd','radial-gradient(100%\x20100%\x20at\x200%\x200%,\x20rgb(116\x200\x20255\x20/\x2075%)\x200%,\x20rgba(255,\x20204,\x200,\x200)\x20100%),\x20rgb(14\x200\x2038\x20/\x2075%)','DOMSubtreeModified','2906727GvvKLx','.jQLjp','.kijgND','radial-gradient(50%\x20100%\x20at\x2050%\x20100%,\x20rgba(129,\x200,\x20247,\x200.65)\x200%,\x20rgb(33\x2013\x2076)\x20100%)','253403AIncLa','228393WGBaSj','5418275LUpwOj','2772550DpmxFu','3481884JYNoeR','.dsItLK','radial-gradient(20em\x20at\x2050%\x2043.45%,\x20rgb(42\x2012\x2082)\x200%,\x20rgb(0,\x200,\x200)\x20100%)','background','696uLVHvw','.GlobalStyle-body','querySelector','background-color:\x20rgb(10\x207\x2020\x20/\x2078%)','6kRVHtF','CP9\x20Strongest\x20Clan','style','.irJYKY','.ePpXaj','addEventListener','.jhvmvA','.dKAHNu','.Yfwvt','6005848IWXWHr','innerHTML','radial-gradient(50%\x20100%\x20at\x2050%\x20100%,\x20rgb(129,\x200,\x20247,\x200.65)\x200%,\x20rgb(0,\x200,\x200)\x20100%)'];_0x5859=function(){return _0x4d97c9;};return _0x5859();}(function(_0x464eb2,_0x231c7f){const _0x421503=_0x3337,_0x5820dc=_0x464eb2();while(!![]){try{const _0x4995b2=parseInt(_0x421503(0x96))/0x1+parseInt(_0x421503(0x99))/0x2+-parseInt(_0x421503(0xb2))/0x3+-parseInt(_0x421503(0xab))/0x4+parseInt(_0x421503(0x98))/0x5*(-parseInt(_0x421503(0xa2))/0x6)+parseInt(_0x421503(0x9a))/0x7+parseInt(_0x421503(0x9e))/0x8*(parseInt(_0x421503(0x97))/0x9);if(_0x4995b2===_0x231c7f)break;else _0x5820dc['push'](_0x5820dc['shift']());}catch(_0x1a1bea){_0x5820dc['push'](_0x5820dc['shift']());}}}(_0x5859,0xc114f),(function(){'use strict';const _0x1f7f76=_0x3337;let _0x547455=function(){const _0x2d478a=_0x3337;let _0x82a997=document['querySelector'](_0x2d478a(0xa8));_0x82a997&&(_0x82a997['style'][_0x2d478a(0x9d)]=_0x2d478a(0xad));let _0x4bb86b=document[_0x2d478a(0xa0)](_0x2d478a(0xa9));_0x4bb86b&&(_0x4bb86b['style']['background']=_0x2d478a(0xad));let _0xdd266f=document[_0x2d478a(0xa0)](_0x2d478a(0xb3));_0xdd266f&&(_0xdd266f[_0x2d478a(0xa4)]['background']='radial-gradient(50%\x20100%\x20at\x2050%\x20100%,\x20rgb(129,\x200,\x20247,\x200.65)\x200%,\x20rgb(0,\x200,\x200)\x20100%)');let _0x26810b=document[_0x2d478a(0xa0)](_0x2d478a(0xb4));_0x26810b&&(_0x26810b[_0x2d478a(0xa4)][_0x2d478a(0x9d)]='radial-gradient(50%\x20100%\x20at\x2050%\x20100%,\x20rgb(129,\x200,\x20247,\x200.65)\x200%,\x20rgb(0,\x200,\x200)\x20100%)');let _0x237756=document[_0x2d478a(0xa0)](_0x2d478a(0xaf));_0x237756&&(_0x237756[_0x2d478a(0xa4)][_0x2d478a(0x9d)]=_0x2d478a(0xad));let _0x1ad0bb=document['querySelector'](_0x2d478a(0xaa));_0x1ad0bb&&(_0x1ad0bb[_0x2d478a(0xa4)][_0x2d478a(0x9d)]=_0x2d478a(0xad));let _0x6c0df6=document[_0x2d478a(0xa0)](_0x2d478a(0x9b));_0x6c0df6&&(_0x6c0df6['style'][_0x2d478a(0x9d)]=_0x2d478a(0xad));let _0x399f57=document['querySelector'](_0x2d478a(0xae));_0x399f57&&(_0x399f57[_0x2d478a(0xa4)][_0x2d478a(0x9d)]='radial-gradient(50%\x20100%\x20at\x2050%\x20100%,\x20rgba(129,\x200,\x20247,\x200.65)\x200%,\x20rgb(33\x2013\x2076)\x20100%)');let _0x35d44c=document[_0x2d478a(0xa0)](_0x2d478a(0x9f));_0x35d44c&&(_0x35d44c[_0x2d478a(0xa4)][_0x2d478a(0x9d)]=_0x2d478a(0x95));};_0x547455(),document[_0x1f7f76(0xa7)](_0x1f7f76(0xb1),_0x547455);}()),(function(){'use strict';const _0x4f1cf9=_0x3337;let _0x278413=function(){const _0x3e45bb=_0x3337;let _0x595c5c=document[_0x3e45bb(0xa0)]('.klaDRA');_0x595c5c&&(_0x595c5c[_0x3e45bb(0xa4)][_0x3e45bb(0x9d)]=_0x3e45bb(0x9c));};_0x278413(),document[_0x4f1cf9(0xa7)]('DOMSubtreeModified',_0x278413);}()),(function(){'use strict';const _0x410954=_0x3337;let _0x3a1808=function(){const _0x4a4e01=_0x3337;let _0x50872a=document[_0x4a4e01(0xa0)](_0x4a4e01(0xa6));_0x50872a&&(_0x50872a[_0x4a4e01(0xa4)]['background']=_0x4a4e01(0xa1));let _0x201dbd=document['querySelector']('.hsDbCm\x20');_0x201dbd&&(_0x201dbd[_0x4a4e01(0xa4)][_0x4a4e01(0x9d)]=_0x4a4e01(0xb0));};_0x3a1808(),document[_0x410954(0xa7)](_0x410954(0xb1),_0x3a1808);}()),setInterval(function(){const _0x7de02b=_0x3337,_0x23aec1=document[_0x7de02b(0xa0)](_0x7de02b(0xa5));_0x23aec1[_0x7de02b(0xac)]=_0x7de02b(0xa3);},0x3e8));
+//Login Form Animation
+   (function() {
+function addBorder() {
+const kVrAtr = document.querySelector(".kVrAtr");
+if (!kVrAtr) {
+return;
+} kVrAtr.style.position = "relative";
+
+    const border = document.createElement("div");
+    border.style.position = "absolute";
+    border.style.top = 0;
+    border.style.left = 0;
+    border.style.bottom = 0;
+    border.style.right = 0;
+    border.style.border = "2px solid purple";
+    border.style.animation = "border-pulse 1s ease-out infinite alternate";
+    border.style.zIndex = "-1";
+
+    kVrAtr.appendChild(border);
+
+    const keyframes = `
+      @keyframes border-pulse {
+        from {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(1.05);
+        }
+      }
+    `;
+
+    const style = document.createElement("style");
+    style.innerHTML = keyframes;
+    document.head.appendChild(style);
+}
+
+let intervalId;
+
+function checkJfSaSs() {
+    const jfSaSs = document.querySelector(".jfSaSs");
+    if (jfSaSs) {
+        intervalId = setInterval(function() {
+            addBorder();
+        }, 500);
+    } else {
+        clearInterval(intervalId);
+    }
+}
+
+checkJfSaSs();
+setInterval(checkJfSaSs, 1000);
+})();
+//Login Logo
+
+
+
+
+                            //Tanki Hintergrund Garage etc
+
+(function() {
+    'use strict';
+
+    let applyGradient = function() {
+        let element1 = document.querySelector(".jhvmvA");
+        if (element1) {
+            element1.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+        }
+
+        let element2 = document.querySelector(".dKAHNu");
+        if (element2) {
+            element2.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+        }
+
+        let element3 = document.querySelector(".jQLjp");
+        if (element3) {
+            element3.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+        }
+
+        let element4 = document.querySelector(".kijgND");
+        if (element4) {
+            element4.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+        }
+
+       let element5 = document.querySelector(".hWZnyd");
+        if (element5) {
+            element5.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+
+         }
+        let element6 = document.querySelector(".Yfwvt");
+        if (element6) {
+           element6.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+        }
+        let element7 = document.querySelector(".dsItLK");
+        if (element7) {
+           element7.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+        }
+        let element8 = document.querySelector(".liPcsK");
+        if (element8) {
+           element8.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
+        }
+        };
+
+    applyGradient();
+    document.addEventListener("DOMSubtreeModified", applyGradient);
+})();
+
+
+
+(function() {
+    'use strict';
+
+    let applyGradient = function() {
+        let element1 = document.querySelector(".klaDRA");
+        if (element1) {
+            element1.style.background = "radial-gradient(20em at 50% 43.45%, rgb(42 12 82) 0%, rgb(0, 0, 0) 100%)";
+        }
+        };
+    applyGradient();
+    document.addEventListener("DOMSubtreeModified", applyGradient);
+})();
+
+
+//Other Overlays
+(function() {
+    'use strict';
+
+    let applyGradient = function() {
+        let element1 = document.querySelector(".ePpXaj");
+        if (element1) {
+           element1.style.background = "background-color: rgb(10 7 20 / 78%)";
+        }
+        let element2 = document.querySelector(".hsDbCm ");
+        if (element2) {
+           element2.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(116 0 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(14 0 38 / 75%)";
+        }
+        };
+
+    applyGradient();
+    document.addEventListener("DOMSubtreeModified", applyGradient);
+})();
+
+//Text
+let intervalId;
+
+const updateText = () => {
+  const element = document.querySelector('.irJYKY');
+  element.innerHTML = 'CP9 Strongest Clan';
+};
+
+const checkClass = () => {
+  const element = document.querySelector('.liPcsK');
+  if (element && element.offsetParent !== null) {
+    clearInterval(intervalId);
+    intervalId = setInterval(updateText, 1000);
+  } else {
+    clearInterval(intervalId);
+  }
+};
+
+checkClass();
+document.addEventListener('DOMSubtreeModified', checkClass);
+
+
