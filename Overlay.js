@@ -113,11 +113,11 @@ setInterval(checkJfSaSs, 1000);
         if (element1) {
             element1.style.background = "radial-gradient(20em at 50% 43.45%, rgb(42 12 82) 0%, rgb(0, 0, 0) 100%)";
         } 
-        let element2 = document.querySelector(".preloader");
+        let element2 = document.querySelector("preloader");
         if (element2) {
             element2.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
         }
-        let element3 = document.querySelector(".modal-root");
+        let element3 = document.querySelector("modal-root");
         if (element3) {
             element3.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
         }
