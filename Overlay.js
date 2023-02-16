@@ -63,40 +63,40 @@ setInterval(checkJfSaSs, 1000);
     let applyGradient = function() {
         let element1 = document.querySelector(".jhvmvA");
         if (element1) {
-            element1.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+            element1.style.background = "radial-gradient(50% 100% at 50% 75%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 75%)";
         }
 
         let element2 = document.querySelector(".dKAHNu");
         if (element2) {
-            element2.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+            element2.style.background = "radial-gradient(50% 100% at 50% 75%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 75%)";
         }
 
         let element3 = document.querySelector(".jQLjp");
         if (element3) {
-            element3.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+            element3.style.background = "radial-gradient(50% 100% at 50% 75%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 75%)";
         }
 
         let element4 = document.querySelector(".kijgND");
         if (element4) {
-            element4.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+            element4.style.background = "radial-gradient(50% 100% at 50% 75%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 75%)";
         }
 
        let element5 = document.querySelector(".hWZnyd");
         if (element5) {
-            element5.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+            element5.style.background = "radial-gradient(50% 100% at 50% 75%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 75%)";
 
          }
         let element6 = document.querySelector(".Yfwvt");
         if (element6) {
-           element6.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+           element6.style.background = "radial-gradient(50% 100% at 50% 75%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 75%)";
         }
         let element7 = document.querySelector(".dsItLK");
         if (element7) {
-           element7.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+           element7.style.background = "radial-gradient(50% 100% at 50% 75%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 75%)";
         }
         let element8 = document.querySelector(".liPcsK");
         if (element8) {
-           element8.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
+           element8.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 80%)";
         }
         };
 
@@ -115,15 +115,19 @@ setInterval(checkJfSaSs, 1000);
         }
         let element2 = document.querySelector("preloader");
         if (element2) {
-            element2.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
+            element2.style.background = "radial-gradient(50% 100% at 50% 75%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
         }
         let element3 = document.querySelector("modal-root");
         if (element3) {
-            element3.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
+            element3.style.background = "radial-gradient(50% 100% at 50% 75%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
         }
         let element4 = document.querySelector(".fJdcIn");
         if (element4) {
-            element4.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
+            element4.style.background = "radial-gradient(50% 100% at 50% 75%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
+        }
+        let element5 = document.querySelector(".eQefek");
+        if (element5) {
+            element5.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 60%) 0%, rgb(33 13 76) 100%)";
         }
         };
     applyGradient();
@@ -150,6 +154,26 @@ setInterval(checkJfSaSs, 1000);
     document.addEventListener("DOMSubtreeModified", applyGradient);
 })();
 
+//Text
+let intervalId;
+
+const updateText = () => {
+  const element = document.querySelector('.irJYKY');
+  element.innerHTML = 'CP9 Strongest Clan';
+};
+
+const checkClass = () => {
+  const element = document.querySelector('.liPcsK');
+  if (element && element.offsetParent !== null) {
+    clearInterval(intervalId);
+    intervalId = setInterval(updateText, 1000);
+  } else {
+    clearInterval(intervalId);
+  }
+};
+
+checkClass();
+document.addEventListener('DOMSubtreeModified', checkClass);
 //Text
 let intervalId;
 
