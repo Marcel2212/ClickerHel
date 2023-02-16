@@ -57,9 +57,6 @@ setInterval(checkJfSaSs, 1000);
 
                             //Tanki Hintergrund Garage etc
 
-(function() {
-    'use strict';
-
     let applyGradient = function() {
         let element1 = document.querySelector(".jhvmvA");
         if (element1) {
@@ -158,38 +155,18 @@ setInterval(checkJfSaSs, 1000);
 let intervalId;
 
 const updateText = () => {
-  const element = document.querySelector('.irJYKY');
-  element.innerHTML = 'CP9 Strongest Clan';
+    const element = document.querySelector('.irJYKY');
+    element.innerHTML = 'CP9 Strongest Clan';
 };
 
 const checkClass = () => {
-  const element = document.querySelector('.liPcsK');
-  if (element && element.offsetParent !== null) {
-    clearInterval(intervalId);
-    intervalId = setInterval(updateText, 1000);
-  } else {
-    clearInterval(intervalId);
-  }
-};
-
-checkClass();
-document.addEventListener('DOMSubtreeModified', checkClass);
-//Text
-let intervalId;
-
-const updateText = () => {
-  const element = document.querySelector('.irJYKY');
-  element.innerHTML = 'CP9 Strongest Clan';
-};
-
-const checkClass = () => {
-  const element = document.querySelector('.liPcsK');
-  if (element && element.offsetParent !== null) {
-    clearInterval(intervalId);
-    intervalId = setInterval(updateText, 1000);
-  } else {
-    clearInterval(intervalId);
-  }
+    const element = document.querySelector('.liPcsK');
+    if (element && element.offsetParent !== null) {
+        clearInterval(intervalId);
+        intervalId = setInterval(updateText, 1000);
+    } else {
+        clearInterval(intervalId);
+    }
 };
 
 checkClass();
