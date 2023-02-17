@@ -50,6 +50,7 @@ function checkJfSaSs() {
 checkJfSaSs();
 setInterval(checkJfSaSs, 1000);
 })();
+
 //Login Logo
 
 (function() {
