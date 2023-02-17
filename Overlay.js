@@ -124,6 +124,10 @@ let applyGradient = function() {
     if (element1) {
         element1.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
     }
+       let element2 = document.querySelector(".jKmoYC");
+    if (element2) {
+        element2.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+    }
 };
 applyGradient();
 document.addEventListener("DOMSubtreeModified", applyGradient);
