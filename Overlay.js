@@ -64,7 +64,7 @@ setInterval(checkJfSaSs, 1000);
 
         let element2 = document.querySelector(".dKAHNu");
         if (element2) {
-            element2.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(129, 0, 247, 0.65) 0%, rgb(0, 0, 0) 100%)";
+            element2.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(0 0 0) 100%)";
         }
 
         let element3 = document.querySelector(".jQLjp");
@@ -94,12 +94,16 @@ setInterval(checkJfSaSs, 1000);
         if (element8) {
            element8.style.background = "radial-gradient(50% 100% at 50% 100%, rgba(129, 0, 247, 0.65) 0%, rgb(33 13 76) 100%)";
         }
+        let element9 = document.querySelector(".jKmoYC");
+        if (element9) {
+           element9.style.background = "rgb(0 0 0 / 75%)";
+        }
         };
 
     applyGradient();
     document.addEventListener("DOMSubtreeModified", applyGradient);
 })();
-radial-gradient(50% 100% at 50% 100%, rgb(88 0 185) 0%, rgb(0 0 0) 100%)
+
 
 
 (function() {
