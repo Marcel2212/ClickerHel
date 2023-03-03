@@ -26,7 +26,7 @@
          }
         let element6 = document.querySelector(".iJwFyD"); //Before Join
         if (element6) {
-           element6.style.background = "(100% 100% at 0% 0%, rgb(0 255 222 / 61%) 0%, rgba(255, 204, 0, 0) 100%), rgb(17 84 233 / 46%)";
+           element6.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 170 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(0 20 38 / 75%)";
         }
         };
 
