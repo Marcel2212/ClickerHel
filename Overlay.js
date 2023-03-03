@@ -1,10 +1,7 @@
-(function() {
-    'use strict';
-
-    let applyGradient = function() { //Pause
+ let applyGradient = function() { //Pause
         let element1 = document.querySelector(".lcOZsa");
         if (element1) {
-            element1.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 255 222 / 61%) 0%, rgba(255, 204, 0, 0) 100%), rgb(17 84 233 / 46%)"; 
+            element1.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 255 222 / 61%) 0%, rgba(255, 204, 0, 0) 100%), rgb(17 84 233 / 46%)";
         }
 
         let element2 = document.querySelector(".lcataQ"); //Tab
@@ -35,26 +32,3 @@
 
     applyGradient();
     document.addEventListener("DOMSubtreeModified", applyGradient);
-})();
-
-
-//Text
-let intervalId;
-
-const updateText = () => {
-    const element = document.querySelector(".dkFkic");
-    element.innerHTML = 'CP9 Strongest Clanby Marcel';
-};
-
-const checkClass = () => {
-    const element = document.querySelector(".liPcsK");
-    if (element && element.offsetParent !== null) {
-        clearInterval(intervalId);
-        intervalId = setInterval(updateText, 1000);
-    } else {
-        clearInterval(intervalId);
-    }
-};
-
-checkClass();
-document.addEventListener('DOMSubtreeModified', checkClass);
