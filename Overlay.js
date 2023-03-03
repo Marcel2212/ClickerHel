@@ -4,7 +4,7 @@
     let applyGradient = function() { //Pause
         let element1 = document.querySelector(".lcOZsa");
         if (element1) {
-            element1.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 255 222 / 61%) 0%, rgba(255, 204, 0, 0) 100%), rgb(17 84 233 / 46%); 
+            element1.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 255 222 / 61%) 0%, rgba(255, 204, 0, 0) 100%), rgb(17 84 233 / 46%)"; 
         }
 
         let element2 = document.querySelector(".lcataQ"); //Tab
