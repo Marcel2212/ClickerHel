@@ -28,6 +28,10 @@
         if (element6) {
            element6.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 170 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(0 20 38 / 75%)";
         }
+         let element7 = document.querySelector(".bKFkCf"); //Before Join
+        if (element7) {
+           element7.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 170 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(0 20 38 / 75%)";
+        }
         };
 
     applyGradient();
