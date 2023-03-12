@@ -22,7 +22,6 @@
        let element5 = document.querySelector(".iDgqtr"); //Main
         if (element5) {
             element5.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(20 131 241 / 67%) 0%, rgb(0 0 0 / 95%) 100%)";
-
          }
         let element6 = document.querySelector(".iJwFyD"); //Before Join .gwmmTU
         if (element6) {
@@ -35,6 +34,10 @@
          let element8 = document.querySelector(".gwmmTU"); //Loading Screen
         if (element8) {
            element8.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 170 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(0 20 38 / 75%)";
+        }
+           let element9 = document.querySelector(".gwmmTU"); //Loading Screen
+        if (element9) {
+           element9.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(10 133 255 / 75%) 0%, rgb(0 0 0 / 90%) 100%)";
         }
         };
 
