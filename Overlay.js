@@ -31,17 +31,13 @@
         if (element7) {
            element7.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 170 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(0 20 38 / 75%)";
         }
-         let element8 = document.querySelector(".ksc-0"); //Loading Screen
+         let element8 = document.querySelector(".LobbyLoaderComponentStyle-container"); //Loading Screen
         if (element8) {
            element8.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 170 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(0 20 38 / 75%)";
         }
            let element9 = document.querySelector(".NewsComponentStyle-newsWindow"); //News
         if (element9) {
            element9.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(10 133 255 / 75%) 0%, rgb(0 0 0 / 90%) 100%)";
-        }
-             let element10 = document.querySelector(".LobbyLoaderComponentStyle-container"); //screen 2 
-        if (element10) {
-           element10.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(10 133 255 / 75%) 0%, rgb(0 0 0 / 90%) 100%)";
         }
         };
 
