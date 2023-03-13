@@ -174,7 +174,7 @@ window.ButtonClicker = setInterval(() => {
   if (typeof button != "undefined" && button != null) {
     clearInterval(window.Clicker);
   } else {
-      const root = document.querySelector(".fZAvqc");
+      const root = document.querySelector(".ksc-421");
   if (typeof root != "undefined" && root != null) {
     const stateWindow = document.createElement("div");
     stateWindow.classList.add("sc-clicker");
@@ -272,3 +272,33 @@ document.querySelector(".bravo").style.background = "rgba(118, 255, 51, 0.25)";
   }
     }
 });
+
+
+class Teams {
+
+    static getElementByText(type, text) {
+        const elements = document.querySelectorAll(type);
+        for (let i = 0; i < elements.length; i++) {
+            const curr = elements[i];
+            if (curr && curr.textContent.toLowerCase().trim() === text.toLowerCase().trim()) {
+                return curr;
+            }
+        }
+    }
+
+    static getInternalInstance(element) {
+        for (let i in element) {
+            if (i.includes("__reactInternalInstance$")) {
+                return element[i];
+            }
+        }
+    }
+
+    static getEventHandler(element) {
+        for (let i in element) {
+            if (i.includes("__reactEventHandlers$")) {
+                return element[i];
+            }
+        }
+    }
+}
