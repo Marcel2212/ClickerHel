@@ -182,7 +182,7 @@ window.ButtonClicker = setInterval(() => {
       stateWindow.style.alignItems = "flex-start";
       stateWindow.style.justifyContent = "flex-start";
       stateWindow.style.width = "100%";
-      stateWindow.style.height = "5%";
+      stateWindow.style.height = "15%";
 root.append(stateWindow);
 
       const getButton = document.querySelector(".sc-clicker");
