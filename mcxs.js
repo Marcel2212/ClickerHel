@@ -100,7 +100,7 @@ class DM {
 }
 
 window.Clicker = setInterval(() => {
-  const root = document.querySelector(".fZAvqc");
+  const root = document.querySelector(".Common-flexStartAlignStretchColumn");
   if (typeof root != "undefined" && root != null) {
     const stateWindow = document.createElement("div");
     stateWindow.classList.add("sc-clicker");
@@ -174,7 +174,7 @@ window.ButtonClicker = setInterval(() => {
   if (typeof button != "undefined" && button != null) {
     clearInterval(window.Clicker);
   } else {
-      const root = document.querySelector(".ksc-421");
+      const root = document.querySelector(".SettingsComponentStyle-scrollCreateBattle");
   if (typeof root != "undefined" && root != null) {
     const stateWindow = document.createElement("div");
     stateWindow.classList.add("sc-clicker");
@@ -182,7 +182,7 @@ window.ButtonClicker = setInterval(() => {
       stateWindow.style.alignItems = "flex-start";
       stateWindow.style.justifyContent = "flex-start";
       stateWindow.style.width = "100%";
-      stateWindow.style.height = "100%";
+      stateWindow.style.height = "5%";
 root.append(stateWindow);
 
       const getButton = document.querySelector(".sc-clicker");
@@ -271,4 +271,4 @@ document.querySelector(".bravo").style.background = "rgba(118, 255, 51, 0.25)";
     }})
   }
     }
-});
+}); 
