@@ -14,7 +14,7 @@
             element3.style.background = "rgb(0 0 0 / 75%)";
         }
 
-        let element4 = document.querySelector(".ksc-0 Common-container"); //End Tab
+        let element4 = document.querySelector(".LobbyLoaderComponentStyle-container"); //Lobby Loading Screen
         if (element4) {
             element4.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(20 131 241 / 67%) 0%, rgb(0 0 0 / 95%) 100%)";
         }
