@@ -54,8 +54,58 @@
         container.style.backgroundColor = "transparent";
         container.style.backdropFilter = "blur(5px)";
         container.style.webkitBackdropFilter = "blur(5px)";
-        container.style.boxShadow = "0.1em 0.1em 3px rgb(255, 0, 219)";
+        container.style.boxShadow = "0.1em 0.1em 6px rgb(255, 0, 219)";
     }
 };
     applyGradient();
     document.addEventListener("DOMSubtreeModified", applyGradient);
+
+// Funktion, die eine neue CSS-Regel hinzufügt
+function addCSSRule(selector, rule) {
+  if (document.styleSheets && document.styleSheets.length > 0) {
+    const styleSheet = document.styleSheets[document.styleSheets.length - 1];
+    if (styleSheet.insertRule) {
+      styleSheet.insertRule(selector + '{' + rule + '}', styleSheet.cssRules.length);
+    } else if (styleSheet.addRule) {
+      styleSheet.addRule(selector, rule, -1);
+    }
+  }
+}
+
+// Funktion zum Ändern der Farbe für die ausgewählten Klassen
+function changeColorForClasses(classList) {
+  const elements = document.querySelectorAll(classList);
+
+  elements.forEach(element => {
+    element.style.color = 'rgb(226, 0, 255)';
+  });
+}
+
+// Hinzufügen einer neuen CSS-Regel für die Klasse .Common-menuItemActive
+const classListToChangeColor = [
+  '.Common-activeMenu',
+  '.UserInfoContainerStyle-containerParametrProgress span',
+  '.Common-maskImageContain',
+  '.ScrollingCardsComponentStyle-cardCount',
+  '.Common-whiteSpaceNoWrap',
+  '.Font-regular',
+  '.Common-menuItemActive'
+];
+
+classListToChangeColor.forEach(className => {
+  addCSSRule(className, 'color: rgb(226, 0, 255) !important;');
+});
+
+// Hinzufügen der zusätzlichen CSS-Eigenschaften für die Klasse .Common-menuItemActive
+addCSSRule('.Common-menuItemActive', 'position: absolute;');
+addCSSRule('.Common-menuItemActive', 'bottom: 0px;');
+addCSSRule('.Common-menuItemActive', 'background-color: rgb(112, 5, 255);');
+addCSSRule('.Common-menuItemActive', 'box-shadow: rgb(163, 0, 255) 0em 0em 0.375em;');
+addCSSRule('.Common-menuItemActive', 'filter: drop-shadow(rgb(163, 0, 255) 0em 0em 0.375em);');
+addCSSRule('.Common-menuItemActive', 'width: 100%;');
+addCSSRule('.Common-menuItemActive', 'height: 0.0625em;');
+addCSSRule('.Common-menuItemActive', 'margin-bottom: -0.1em;');
+
+// Farbe für die ausgewählten Klassen ändern
+window.addEventListener('DOMContentLoaded', () => {
+  changeColorForClasses(classListToChangeColor.join(', '));
