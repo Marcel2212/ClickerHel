@@ -96,7 +96,7 @@ function changeColorForClasses(classList) {
 // Hinzufügen einer neuen CSS-Regel für die Klasse .Common-menuItemActive
 const classListToChangeColor = [
   '.Common-activeMenu',
-  '.UserInfoContainerStyle-containerParametrProgress',
+  '.UserInfoContainerStyle-textDecoration',
   '.Common-maskImageContain',
   '.ScrollingCardsComponentStyle-cardCount',
   '.Common-whiteSpaceNoWrap',
