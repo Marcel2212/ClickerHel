@@ -54,7 +54,7 @@
         container.style.backgroundColor = "transparent";
         container.style.backdropFilter = "blur(5px)";
         container.style.webkitBackdropFilter = "blur(5px)";
-        container.style.boxShadow = "0.1em 0.1em 6px rgb(255, 0, 219)";
+        container.style.boxShadow = "0.1em 0.1em 13px rgb(255, 0, 219)";
     }
 };
     applyGradient();
