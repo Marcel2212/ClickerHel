@@ -72,19 +72,31 @@ function addCSSRule(selector, rule) {
   }
 }
 
+// Funktion, die eine neue CSS-Regel hinzufügt
+function addCSSRule(selector, rule) {
+  if (document.styleSheets && document.styleSheets.length > 0) {
+    const styleSheet = document.styleSheets[document.styleSheets.length - 1];
+    if (styleSheet.insertRule) {
+      styleSheet.insertRule(selector + '{' + rule + '}', styleSheet.cssRules.length);
+    } else if (styleSheet.addRule) {
+      styleSheet.addRule(selector, rule, -1);
+    }
+  }
+}
+
 // Funktion zum Ändern der Farbe für die ausgewählten Klassen
 function changeColorForClasses(classList) {
   const elements = document.querySelectorAll(classList);
 
   elements.forEach(element => {
-    element.style.color = 'rgb(226, 0, 255)';
+    element.style.color = 'rgb(219, 176, 255)';
   });
 }
 
 // Hinzufügen einer neuen CSS-Regel für die Klasse .Common-menuItemActive
 const classListToChangeColor = [
   '.Common-activeMenu',
-  '.UserInfoContainerStyle-containerParametrProgress span',
+  '.UserInfoContainerStyle-containerParametrProgress',
   '.Common-maskImageContain',
   '.ScrollingCardsComponentStyle-cardCount',
   '.Common-whiteSpaceNoWrap',
@@ -93,7 +105,7 @@ const classListToChangeColor = [
 ];
 
 classListToChangeColor.forEach(className => {
-  addCSSRule(className, 'color: rgb(226, 0, 255) !important;');
+  addCSSRule(className, 'color: rgb(219, 176, 255) !important;');
 });
 
 // Hinzufügen der zusätzlichen CSS-Eigenschaften für die Klasse .Common-menuItemActive
@@ -109,3 +121,5 @@ addCSSRule('.Common-menuItemActive', 'margin-bottom: -0.1em;');
 // Farbe für die ausgewählten Klassen ändern
 window.addEventListener('DOMContentLoaded', () => {
   changeColorForClasses(classListToChangeColor.join(', '));
+});
+
