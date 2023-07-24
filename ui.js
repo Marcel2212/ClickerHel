@@ -1,3 +1,4 @@
+
  let applyGradient = function() { //Pause
         let element1 = document.querySelector(".x");
         if (element1) {
@@ -39,7 +40,22 @@
         if (element9) {
            element9.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(226 0 255) 0%, rgba(0, 0, 0, 0.9) 100%);";
         }
-        };
+    const element12 = document.querySelector(".BattlePassLobbyComponentStyle-menuBattlePass");
+    if (element12) {
+        element12.style.background = "radial-gradient(106.67% 100% at 0% 0%, rgb(212, 127, 255) 0%, rgba(0, 25, 38, 0.5) 100%)";
+        element12.style.borderRadius = "0.5em";
+        element12.style.backdropFilter = "blur(0.781em)";
+        element12.style.webkitBackdropFilter = "blur(0.781em)"; // Safari-Unterstützung
+        element12.style.boxShadow = "rgb(213, 128, 255) 0em 0em 0em 1px";
+    }
 
+    const container = document.querySelector(".BattleTabStatisticComponentStyle-containerInsideTeams");
+    if (container) {
+        container.style.backgroundColor = "transparent";
+        container.style.backdropFilter = "blur(5px)";
+        container.style.webkitBackdropFilter = "blur(5px)";
+        container.style.boxShadow = "0.1em 0.1em 3px rgb(255, 0, 219)";
+    }
+};
     applyGradient();
     document.addEventListener("DOMSubtreeModified", applyGradient);
