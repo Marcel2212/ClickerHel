@@ -77,7 +77,7 @@ function changeColorForClasses(classList) {
   const elements = document.querySelectorAll(classList);
 
   elements.forEach(element => {
-    element.style.color = 'rgb(219, 176, 255)';
+    element.style.color = 'rgb(226, 0, 255)';
   });
 }
 
@@ -93,7 +93,7 @@ const classListToChangeColor = [
 ];
 
 classListToChangeColor.forEach(className => {
-  addCSSRule(className, 'color: rgb(219, 176, 255) !important;');
+  addCSSRule(className, 'color: rgb(226, 0, 255) !important;');
 });
 
 // Hinzufügen der zusätzlichen CSS-Eigenschaften für die Klasse .Common-menuItemActive
