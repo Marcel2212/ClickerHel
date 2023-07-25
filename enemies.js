@@ -38,7 +38,7 @@ function markTextsWithinSpan() {
 
 function startUpdating() {
   intervalId = setInterval(function() {
-    const containerElement = document.querySelector(".BattleTabStatisticComponentStyle-container");
+    const containerElement = document.querySelector("x");
     if (!containerElement) {
       markTextsWithinSpan();
     } else {
