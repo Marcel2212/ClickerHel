@@ -94,7 +94,7 @@ function changeColorForClasses(classList) {
 }
 
 // Hinzufügen einer neuen CSS-Regel für die Klasse .Common-menuItemActive
-const classListToChangeColor = [
+let classListToChangeColor = [
   '.Common-activeMenu',
   '.UserInfoContainerStyle-textDecoration',
   '.Common-maskImageContain',
