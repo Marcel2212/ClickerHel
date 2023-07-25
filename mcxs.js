@@ -40,7 +40,7 @@ function startUpdating() {
     } else {
       clearInterval(intervalId); // Stoppe die Aktualisierung, wenn der Benutzer sich im ".BattleTabStatisticComponentStyle-container" befindet
     }
-  }, 1000);
+  }, 300);
 }
 
 startUpdating(); // Starte die Aktualisierung
