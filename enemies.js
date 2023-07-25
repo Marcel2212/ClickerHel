@@ -4,8 +4,8 @@ let intervalId; // Variable zum Speichern des Intervals
 function markTextsWithinSpan() {
   const turquoiseTags = ["[YSL]", "[CP9]", "[Mad]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"]; //allies
   
-  const redTags = ["[KOA]", "[NL]", "[D3S]", "[sRev]", "[ly]", "[R8]", "[Do.it]", "[808]", "[K0A]", "[Kuduro]", "[C.at]", "[Sarah.girl]", "[HTP]", "[AR]", "[Nvm]", "[1994]", "[Cruel]", "[888]", "[Aura]", "[Q2]", "[99]", "[INRX]", "[CVS]", "[SXN]", "[6ang]", "[Way]", "[xxxxxxx]"
-                  , "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"]; //enemys
+  const redTags = ["[KOA]", "[NL]", "[D3S]", "[sRev]", "[ly]", "[R8]", "[Do.it]", "[808]", "[K0A]", "[Kuduro]", "[C.at]", "[Sarah.girl]", "[HTP]", "[AR]", "[Nvm]", "[1994]", "[Cruel]", "[888]", "[Aura]", "[Q2]", "[99]", "[INRX]", "[CVS]", "[SXN]", "[6ang]", "[Way]", "[lKOAl]"
+                  , "[Bay]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"]; //enemys
 
   const whiteSpaceNoWrapElements = document.querySelectorAll(".Common-whiteSpaceNoWrap");
 
