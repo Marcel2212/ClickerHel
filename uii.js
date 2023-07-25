@@ -24,7 +24,7 @@
         if (element5) {
             element5.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(226 0 255) 0%, rgb(0 0 0 / 95%) 100%)";
          }
-        let element6 = document.querySelector("x"); //Loading screen
+        let element6 = document.querySelector(".NewsComponentStyle-newsWindow"); //News
         if (element6) {
            element6.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(215 0 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(31 0 38 / 75%)";
         }
@@ -36,9 +36,9 @@
         if (element8) {
            element8.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(215 0 255 / 75%) 0%, rgba(255, 204, 0, 0) 100%), rgb(31 0 38 / 75%)";
         }
-           let element9 = document.querySelector(".NewsComponentStyle-newsWindow"); //News
+           let element9 = document.querySelector(".ChatComponentStyle-chatWindow"); //Chat
         if (element9) {
-           element9.style.background = "radial-gradient(50% 100% at 50% 100%, rgb(226 0 255) 0%, rgba(0, 0, 0, 0.9) 100%);";
+           element9.style.background = "background-color: rgb(9 7 14);";
         }
     const element12 = document.querySelector(".BattlePassLobbyComponentStyle-menuBattlePass");
     if (element12) {
