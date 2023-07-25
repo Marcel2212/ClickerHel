@@ -99,7 +99,6 @@ let classListToChangeColor = [
   '.UserInfoContainerStyle-textDecoration',
   '.Common-maskImageContain',
   '.ScrollingCardsComponentStyle-cardCount',
-  '.Common-whiteSpaceNoWrap',
   '.Font-regular',
   '.Common-menuItemActive'
 ];
