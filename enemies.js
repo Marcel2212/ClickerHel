@@ -4,8 +4,8 @@ let intervalId; // Variable zum Speichern des Intervals
 function markTextsWithinSpan() {
   const turquoiseTags = ["[YSL]", "[CP9]", "[Mad]", "[Nike]", "naka", "Cube", "[1v9]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"]; //allies
   
-  const redTags = ["[KOA]", "[NL]", "[D3S]", "[sRev]", "[ly]", "[R8]", "[Do.it]", "[808]", "[K0A]", "Kuduro", "C.at", "Sarah.girl", "[HTP]", "[AR]", "[Nvm]", "[1994]", "[Cruel]", "[888]", "[Aura]", "[Q2]", "[99]", "[INRX]", "[CVS]", "[SXN]", "[6ang]", "[Way]", "[lKOAl]"
-                  , "[Bay]", "LLC", "Ms.Pwo", "[Ditsy]", "Batzen", "[44]", "[ZX]", "[VS]", "[Love]", "[2OP]", "[OL]", "[19]", "[RoRo]", "Okane", "Esco", "[20P]", "[[Volt]", "[C_F]", "Lilli", "Glassy", " DESTROYER", "[xxxxxxx]", "[xxxxxxx]"
+  const redTags = ["[KOA]", "[Deluxo]", "[D3S]", "[sRev]", "[ly]", "[R8]", "[Do.it]", "[808]", "[K0A]", "Kuduro", "C.at", "Sarah.girl", "[HTP]", "[AR]", "[Nvm]", "[1994]", "[Cruel]", "[888]", "[Aura]", "[Q2]", "[99]", "[INRX]", "[CVS]", "[SXN]", "[6ang]", "[Way]", "[lKOAl]"
+                  , "[Bay]", "LLC", "Ms.Pwo", "[Ditsy]", "Batzen", "[44]", "[ZX]", "[VS]", "[Love]", "[Protech]", "[OL]", "[19]", "[RoRo]", "Okane", "Esco", "[xxxxxxxxxx]", "[[Volt]", "[C_F]", "Lilli", "Glassy", " DESTROYER", "[GBDEATH]", "[xxxxxxx]"
                   , "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"
                   , "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"]; //enemys
 
