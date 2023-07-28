@@ -1,7 +1,7 @@
 let applyGradient = function() { //Pause
         let element1 = document.querySelector(".Common-entranceGradient");
         if (element1) {
-            element1.style.background = "linear-gradient(rgb(0 0 0) 0%, rgb(255 0 93 / 45%) 75%)";
+            element1.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 198 255 / 75%) 0%, rgba(255, 204, 0, 0) 75%), rgb(6 28 59 / 75%)";
         }
 
         let element2 = document.querySelector(".BattleTabStatisticComponentStyle-containerInsideTeams"); //Tab
