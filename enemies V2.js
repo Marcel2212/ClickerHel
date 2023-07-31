@@ -5,8 +5,8 @@ function markTextsWithinSpan() {
   const turquoiseTags = ["[YSL]", "[CP9]", "[Mad]", "[Nike]", "naka", "Cube", "[1v9]", "[NL]", "[NLC]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"]; //allies
   
   const redTags = ["[KOA]", "xxxxxxxxxxx", "[D3S]", "[sRev]", "[ly]", "[R8]", "[Do.it]", "[808]", "[K0A]", "Kuduro", "C.at", "Sarah.girl", "[HTP]", "[AR]", "[Nvm]", "[1994]", "[Cruel]", "[888]", "[Aura]", "[Q2]", "[99]", "[INRX]", "[CVS]", "[SXN]", "[6ang]", "[Way]", "[lKOAl]"
-                  , "[Bay]", "LLC", "Ms.Pwo", "[Ditsy]", "Batzen", "[44]", "[ZX]", "[VS]", "[Love]", "Protech", "[OL]", "[19]", "[RoRo]", "Okane", "Esco", "[xxxxxxxxxx]", "[[Volt]", "[C_F]", "Lilli", "Glassy", " DESTROYER", "GBDEATH", "Fufelshmerz"
-                  , "[Athen]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"
+                  , "[Bay]", "LLC", "Ms.Pwo", "[Ditsy]", "Batzen", "[44]", "[ZX]", "[VS]", "[Love]", "Protech", "[OL]", "[19]", "[RoRo]", "Okane", "Esco", "[A.R]", "[[Volt]", "[C_F]", "Lilli", "Glassy", " DESTROYER", "GBDEATH", "Fufelshmerz"
+                  , "[Athen]", "Shafz", "[Ditto]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"
                   , "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]", "[xxxxxxx]"]; //enemys
 
   const whiteSpaceNoWrapElements = document.querySelectorAll(".Common-whiteSpaceNoWrap");
