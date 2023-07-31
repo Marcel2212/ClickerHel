@@ -866,7 +866,7 @@ if (lastUsedCodeBlock) {
 // Event Listener für die Eingabe der Taste "Ü"
 document.addEventListener('keydown', function(event) {
   if (event.key.toLowerCase() === 'ü') {
-    const selectedField = prompt('Bitte eine Zahl von 1 bis 10 eingeben:');
+    const selectedField = prompt('Choose a Number from 1 to 10:');
     executeCode(selectedField);
   }
 });
