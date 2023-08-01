@@ -684,7 +684,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         let element2 = document.querySelector(".BattleTabStatisticComponentStyle-containerInsideTeams"); //Tab
         if (element2) {
-            element2.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 0 0) 0%, rgb(233 194 37 / 0%) 75%), rgb(0 0 0 / 88%)";
+                      element2.style.background = "radial-gradient(100% 100% at 0% 0%, rgb(0 0 0) 0%, rgb(233 194 37 / 0%) 75%), rgb(0 0 0 / 88%)";
         }
 
         let element3 = document.querySelector(".BattleTabStatisticComponentStyle-containerInsideResults"); //Tab 2
