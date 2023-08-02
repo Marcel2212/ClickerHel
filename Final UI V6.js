@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name         Marcels test
+// @namespace    tankionline.com
+// @version      1
+// @description  Change UI with Ü key
+// @author       Marcel
+// @match        https://*tankionline.com/play/*
+// @match        https://*tankionline.com/browser-public/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
+// @require      https://cdn.jsdelivr.net/npm/sweetalert2@11.6.16/dist/sweetalert2.all.min.js
+// @grant        none
+// ==/UserScript==
 // Hier die JavaScript-Code Blöcke einfügen
 let codeBlocks = {
   "1": `// Code-Block 1
@@ -529,7 +541,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 // Füge hier den Code für Code-Block 4 ein`,
 
-  "5": `// Code-Block 
+  "5": `// Code-Block
   let applyGradient = function() { //Pause
         let element1 = document.querySelector(".Common-entranceGradient");
         if (element1) {
@@ -822,31 +834,56 @@ window.addEventListener('DOMContentLoaded', () => {
 // Füge hier den Code für Code-Block 6 ein`,
 
   "7": `// Code-Block 7
-  
+
 // Füge hier den Code für Code-Block 7 ein`,
 
   "8": `// Code-Block 8
-  
+
 // Füge hier den Code für Code-Block 8 ein`,
 
   "9": `// Code-Block 9
-  
+
 // Füge hier den Code für Code-Block 9 ein`,
 
   "10": `// Code-Block 10
-  
-// Füge hier den Code für Code-Block 10 ein`
+
+// Füge hier den Code für Code-Block 10 ein`,
+
+    "isa": `// Code-Block isa ,
+    let applyGradient = function() {
+    const container = document.querySelector(".BattleTabStatisticComponentStyle-containerInsideTeams");
+    if (container) {
+        container.style.backgroundColor = "transparent";
+        container.style.backdropFilter = "blur(5px)";
+        container.style.webkitBackdropFilter = "blur(5px)";
+        container.style.boxShadow = "0.1em 0.1em 50px rgb(0 246 255 / 100%)";
+   }
+const container554 = document.querySelector(".BattleTabStatisticComponentStyle-containerInsideResults");
+    if (container554) {
+        container554.style.backgroundColor = "transparent";
+        container554.style.backdropFilter = "blur(5px)";
+        container554.style.webkitBackdropFilter = "blur(5px)";
+        container554.style.boxShadow = "0.1em 0.1em 50px rgb(0 246 255 / 100%)";
+    }
+};
+   applyGradient();
+    document.addEventListener("DOMSubtreeModified", applyGradient);
+
+window.addEventListener('DOMContentLoaded', () => {
+  changeColorForClasses(classListToChangeColor.join(', '));
+});
+
+// Füge hier den Code für Code-Block isa ein`
 };
 
-// Funktion zum Ausführen des JavaScript-Codes
 function executeCode(selectedField) {
   let codeToExecute = codeBlocks[selectedField];
-  
+
   if (codeToExecute) {
     try {
       eval(codeToExecute);
       console.log(`Code Block ${selectedField} erfolgreich ausgeführt.`);
-      localStorage.setItem('lastUsedCodeBlock', selectedField); // Speichern des zuletzt verwendeten Code-Blocks
+      localStorage.setItem('lastUsedCodeBlock', selectedField);
     } catch (error) {
       console.error(`Fehler beim Ausführen von Code Block ${selectedField}:`, error);
     }
@@ -855,18 +892,19 @@ function executeCode(selectedField) {
   }
 }
 
-// Laden des zuletzt verwendeten Code-Blocks aus dem localStorage
+
 let lastUsedCodeBlock = localStorage.getItem('lastUsedCodeBlock');
 
-// Wenn ein zuletzt verwendeter Code-Block vorhanden ist, führe ihn aus
+
 if (lastUsedCodeBlock) {
   executeCode(lastUsedCodeBlock);
 }
 
-// Event Listener für die Eingabe der Taste "Ü"
+
 document.addEventListener('keydown', function(event) {
-  if (event.key.toLowerCase() === 'ü') {
+  if (event.key === 'F7') {
     const selectedField = prompt('Choose a Number from 1 to 10:');
     executeCode(selectedField);
   }
 });
+
