@@ -1,16 +1,4 @@
-// ==UserScript==
-// @name         Marcels test
-// @namespace    tankionline.com
-// @version      1
-// @description  Change UI with Ü key
-// @author       Marcel
-// @match        https://*tankionline.com/play/*
-// @match        https://*tankionline.com/browser-public/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
-// @require      https://cdn.jsdelivr.net/npm/sweetalert2@11.6.16/dist/sweetalert2.all.min.js
-// @grant        none
-// ==/UserScript==
-// Hier die JavaScript-Code Blöcke einfügen
+
 let codeBlocks = {
   "1": `// Code-Block 1
 let applyGradient = function() { //Pause
